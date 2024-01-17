@@ -1,0 +1,28 @@
+.random,.random1{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+}
+
+.start{
+    display: inline;
+}
+
+.random{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
+
+.random1{
+    position: absolute;
+    top: 50px;
+    left: 160px;
+}
+
+.second{
+    margin-top: 5px;
+    position: absolute;
+    left: 190px;
+    top: 0px;
+}
