@@ -31,3 +31,37 @@
     margin-top: 70px;
     margin-left: 210px;
 }
+
+.random2,.random3{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    /* margin-top: 10%; */
+}
+
+.start1{
+    display: inline-block;
+}
+
+.random2{
+    position: absolute;
+    top: 220px;
+    left: 10px;
+}
+
+.random3{
+    position: absolute;
+    top: 220px;
+    left: 160px;
+}
+
+.second1{
+    display: inline-block;
+    position: absolute;
+    left: 190px;
+}
+
+.click1{
+    margin-top: 50px;
+    margin-left: 210px;
+}
