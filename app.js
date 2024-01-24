@@ -4,6 +4,7 @@ document.getElementsByClassName("random")[0].onclick=function(){
     document.getElementsByClassName("start")[0].textContent= x
     document.getElementsByClassName("random")[0].disabled=true;
     
+
 count=0
 document.getElementsByClassName("random1")[0].onclick=function(){
     count++
@@ -14,6 +15,7 @@ document.getElementsByClassName("random1")[0].onclick=function(){
 
     if(x==y){
         document.getElementsByClassName("random1")[0].disabled=true;
+        document.getElementsByClassName("random2")[0].disabled=false;
     }
 }
 }

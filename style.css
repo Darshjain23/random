@@ -28,8 +28,8 @@
 }
 
 .click{
-    margin-top: 70px;
-    margin-left: 210px;
+    margin-top: 20px;
+    margin-left: 320px
 }
 
 .random2,.random3{
@@ -44,15 +44,13 @@
 }
 
 .random2{
-    position: absolute;
-    top: 220px;
-    left: 10px;
+    display: block;
 }
 
 .random3{
-    position: absolute;
-    top: 220px;
-    left: 160px;
+    position: relative;
+    bottom: 39px;
+    margin-left: 150px;
 }
 
 .second1{
@@ -62,6 +60,18 @@
 }
 
 .click1{
-    margin-top: 50px;
-    margin-left: 210px;
+    margin-top: -60px;
+    margin-left: 320px;
+}
+
+.down{
+    margin-top: 100px;
+}
+
+.line{
+    display: inline-block;
+    background-color: black;
+    height: 2px;
+    width: 100%;
+    margin-top: 170px;
 }

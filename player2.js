@@ -1,3 +1,4 @@
+document.getElementsByClassName("random2")[0].disabled=true;
 document.getElementsByClassName("random2")[0].onclick=function(){
     i=Math.random()
     x = parseInt(i*6+1)
