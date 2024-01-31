@@ -1,22 +1,24 @@
-document.getElementsByClassName("random")[0].disabled=false;
-document.getElementsByClassName("random1")[0].disabled=true;
-document.getElementsByClassName("random")[0].onclick=function(){
+$(".random").prop('disabled', false);
+$(".random1").prop('disabled', true);
+
+$(".random").click(function(){
     i=Math.random()
     x = parseInt(i*3+1)
-    document.getElementsByClassName("start")[0].textContent= x
-    document.getElementsByClassName("random")[0].disabled=true;
-    document.getElementsByClassName("random1")[0].disabled=false;
-}
+    $(".start").text(x)
+    $(".random").prop('disabled', true);
+    $(".random1").prop('disabled', false);
+})
+
 sum=0
-document.getElementsByClassName("random1")[0].onclick=function(){
+$(".random1").click(function(){
     sum++
-    document.getElementsByClassName("click")[0].textContent=sum
+    $(".click").text(sum)
     i=Math.random()
     y = parseInt(i*3+1)
-    document.getElementsByClassName("second")[0].textContent=y
+    $(".second").text(y)
 
     if(x==y){
-        document.getElementsByClassName("random1")[0].disabled=true;
-        document.getElementsByClassName("random2")[0].disabled=false;
+        $(".random1").prop('disabled' , true);
+        $(".random2").prop('disabled' , false);
     }
-}
+})
