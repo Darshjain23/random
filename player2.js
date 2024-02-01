@@ -26,16 +26,22 @@ $(".random3").click(function(){
         console.log(b)
     
         if(a>b){
+            $(".ply1").show();
+            $(".ply2").show();
             $(".ply1").text("Loser");
             $(".ply2").text("Winner");
         }
 
         else if(a==b){
+            $(".ply1").show();
+            $(".ply2").show();
             $(".ply1").text("Tie");
             $(".ply2").text("Tie");
         }
     
         else{
+            $(".ply1").show();
+            $(".ply2").show();
             $(".ply1").text("Winner");
             $(".ply2").text("Loser");
         }

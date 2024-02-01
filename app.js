@@ -1,3 +1,7 @@
+$(document).ready(function(){
+
+
+
 $(".random").prop('disabled', false);
 $(".random1").prop('disabled', true);
 
@@ -21,4 +25,5 @@ $(".random1").click(function(){
         $(".random1").prop('disabled' , true);
         $(".random2").prop('disabled' , false);
     }
+})
 })
